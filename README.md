@@ -5,6 +5,10 @@
 
 1. Fork this repo and clone it on to the lambda server like normal.
     Ensure that you properly get the `pagila` submodule data.
+    ```
+    $ git submodule init
+    $ git submodule update
+    ```
 
 1. Build the containers and enter psql with the following commands.
     ```
